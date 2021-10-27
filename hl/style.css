@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+*{font-family: sans-serif; padding: 0px; list-style: none; text-decoration: none; margin: 0; padding: 0;}
+body{color: #21489d; background-color: #f8f8f8;}
+body::-webkit-scrollbar {width: 6px;}
+body::-webkit-scrollbar-track {background: transparent;}
+body::-webkit-scrollbar-thumb {background-color: #f14b3d;}
+.menu{display: flex; justify-content: space-between; padding: 4% 6% 0% 6%; align-items: center; }
+.menu li a{padding: 0px 25px; color: #21489d;}
+#items-menu{display: flex; align-items: center;}
+h1{font-size: 5em; padding: 5% 0% 5% 0%;}
+p{font-size: 1em;}
+a{color: currentColor;}
+.main{margin: 5% 8%; display: flex; align-items: center;}
+.part1{margin: 5% 8%; display: flex;;}
+.part1 p{font-family: 'Noto Sans Mono', monospace; font-size: 18px;}
+.part1 h2{font-size: 50px; padding: 5% 0%;}
+.part2{margin: 0% 8%; display: flex; align-items:center ;}
+.part2 p{font-family: 'Noto Sans Mono', monospace; font-size: 18px;}
+.part2 h2{font-size: 50px; padding: 5% 0% 5% 0%;}
+.part3{margin: 5% 8%; display: flex; align-items:center ;}
+.part3 p{font-family: 'Noto Sans Mono', monospace; font-size: 18px; margin-bottom: 5%;}
+.grifo:hover{border-bottom: 2px solid #21489d;}
+#hl li a{font-family: 'Noto Sans Mono', monospace; font-size: 30px; color: #f14b3d; border-left: solid 4px #f14b3d;}
+#registrar{background-color: #f8f8f8; color: #21489d; border: 2px solid #21489d; font-size: 18px; padding: 12px 20px; font-family: 'Noto Sans Mono', monospace; transition: background-color, color 0.3s;}
+#registrar:hover{background-color: #21489d; color: #f8f8f8;}
+footer{width: 100%; height: 50px; background-color: #f14b3d; color: #f8f8f8; margin-top: -4px; display: flex; justify-content: space-around;}
+.txt-footer{font-family: 'Raleway', sans-serif; font-size: 18px;}
+.icon{background-color: #f14b3d; border: none; color: #f8f8f8; padding: 0px 10px;}
+.icon:hover{filter:opacity(75%) ;}
+#user{filter: opacity(85%);}
+#user:hover{filter: opacity(100%);}
+button{background-color: transparent; border: transparent; color: currentColor;}
+.cards {display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); grid-gap: 30px; max-width: 85%; margin: 0 auto 30px;}  
+article{position: relative;}
+.article-img{height: 300px; width: 100%; object-fit: cover; transition: transform .3s;}
+.article-img:hover{transform: scale(1.01);}
+.article-title {bottom: 0; padding: 10px; color: #21489d; font-family: 'Noto Sans Mono', monospace;}
+.article-text {bottom: 0; padding: 0px 10px; color: #21489d; font-family: 'Noto Sans Mono', monospace;}
