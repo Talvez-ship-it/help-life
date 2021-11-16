@@ -60,7 +60,6 @@ article{position: relative;}
 .model-title {bottom: 0;}
 .usuario{margin: 5%; position: absolute;}
 .img-usuario{position: absolute; bottom: 5%; right: 5%;}
-#heart{width: 25px; height: 25px;}
 .container{display: none;}
 .side-menu-wrapper {background: #051D52; padding: 50px 0 0 35px; position: fixed; top: 0; right: 0; height: 100%; z-index: 2; transition: 0.5s; width: 250px; font-size: 20px; box-sizing: border-box;}
 .side-menu-wrapper ul {list-style: none; padding: 0; margin: 0; overflow-y: auto; height: 95%;}

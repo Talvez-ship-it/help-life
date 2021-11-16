@@ -8,6 +8,7 @@ body::-webkit-scrollbar-thumb {background-color: #525252;}
 section{padding: 25px 16px; box-shadow: 1px 5px 20px #aaaaaa;}
 p{font-size: 28px; margin-bottom: 5%;}
 .title-form{margin-bottom: 0;}
+abbr{text-decoration: none;}
 .obs{font-size: smaller; margin-bottom: 5%;}
 span{color: #525252; margin: 0; padding: 0;}
 label{color: #525252; margin: 0; padding: 0;}

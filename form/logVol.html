@@ -16,10 +16,10 @@
             <p>Entre</p>
             <label for="#">Nome</label>
             <input type="text" id="#">
-            <label for="#">Email</label>
+            <label for="#"><abbr title="Login gerado pela sua Ong">Email</abbr></label>
             <input type="email" id="#">
-            <label for="password">Senha</label>
-            <input type="password" id="senha"/>
+            <label for="password"><abbr title="Senha gerado pela sua Ong">Senha</abbr></label>
+            <input type="password" id="password"/>
             <i class="bi bi-eye-slash" id="togglePassword"></i>
             <button id="salvar" type="submit">Continuar</button>
             </form>
@@ -28,11 +28,11 @@
 
     <script>
         const togglePassword = document.querySelector('#togglePassword');
-        const password = document.querySelector('#senha');
+        const senha = document.querySelector('#password');
         togglePassword.addEventListener('click', function (e) {
-            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-            password.setAttribute('type', type);
-            this.classList.toggle('bi-eye');
+        const type = senha.getAttribute('type') === 'password' ? 'text' : 'password';
+        senha.setAttribute('type', type);
+        this.classList.toggle('bi-eye');
         });
     </script>
 </body>
