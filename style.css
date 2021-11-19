@@ -37,8 +37,9 @@ a{color: currentColor;}
 #hl li a{font-family: 'Noto Sans Mono', monospace; font-size: 30px; color: #f14b3d; border-left: solid 4px #f14b3d;}
 .registrar{background-color: #f8f8f8; color: #21489d; border: 2px solid #21489d; font-size: 20px; padding: 12px 20px; font-family: 'Source Sans Pro', sans-serif; transition: background-color, color 0.3s;}
 .registrar:hover{background-color: #21489d; color: #f8f8f8; cursor: pointer;}
-footer{width: 100%; height: 50px; background-color: #f14b3d; color: #f8f8f8; margin-top: -4px; display: flex; justify-content: space-around; position: static;}
+footer{width: 100%; height: 50px; background-color: #f14b3d; color: #f8f8f8; margin-top: -4px; display: flex; justify-content: space-around;}
 .txt-footer{font-family: 'Raleway', sans-serif; font-size: 18px;}
+.txt-font{font-family: 'Raleway', sans-serif; font-size: 14px;}
 .icon{background-color: #f14b3d; border: none; color: #f8f8f8; padding: 0px 10px;}
 .icon:hover{filter:opacity(75%) ;}
 button{background-color: transparent; border: transparent; color: currentColor;}
@@ -60,6 +61,7 @@ article{position: relative;}
 .model-title {bottom: 0;}
 .usuario{margin: 5%; position: absolute;}
 .img-usuario{position: absolute; bottom: 5%; right: 5%;}
+#heart{cursor: pointer;}
 .container{display: none;}
 .side-menu-wrapper {background: #051D52; padding: 50px 0 0 35px; position: fixed; top: 0; right: 0; height: 100%; z-index: 2; transition: 0.5s; width: 250px; font-size: 20px; box-sizing: border-box;}
 .side-menu-wrapper ul {list-style: none; padding: 0; margin: 0; overflow-y: auto; height: 95%;}
@@ -89,9 +91,10 @@ article{position: relative;}
   .open-close{margin: 5% 8% 0% 8%}
   h1{font-size: 3em;}
   .part1 h2{font-size: 2em;}
+  .article-title{font-size: 25px;}
   .registrar{margin-top: 2%; border: navajowhite; border-bottom: 2px solid;}
-  footer{margin-top: -6px; margin-bottom: 0; width: auto;}
-  .txt-footer{padding-top: 2%;}
+  footer{margin-top: -6px; width: auto;}
+  .txt-font{display: none;}
   .icon{display: none;}
   .container {display: inline-block; cursor: pointer; margin: 6% 8% 0% 82%;}
   .bar1, .bar2, .bar3 {width: 35px; height: 5px; background-color: #21489d; margin: 6px 0;}
